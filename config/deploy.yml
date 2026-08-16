@@ -22,7 +22,7 @@ servers:
 #
 proxy:
    ssl: true
-   host: app_port: 8080
+   host: app_port; 8080
 
 # Where you keep your container images.
 registry:
