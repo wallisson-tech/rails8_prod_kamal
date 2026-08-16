@@ -1,5 +1,5 @@
 # Name of your application. Used to uniquely configure containers.
-service: test_rails_8
+service: wallissonlopes/test_rails_8
 
 # Name of the container image (use your-user/app-name on external registries).
 image: test_rails_8
@@ -7,7 +7,7 @@ image: test_rails_8
 # Deploy to these servers.
 servers:
   web:
-    - 143.244.148.71
+    - 206.189.224.13
   # job:
   #   hosts:
   #     - 192.168.0.1
