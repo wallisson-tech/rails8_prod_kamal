@@ -1,10 +1,10 @@
 <% require "dotenv"; Dotenv.load(".env") %>
 
 # Name of your application. Used to uniquely configure containers.
-service: test_rails8
+service: test_rails_8
 
 # Name of the container image (use your-user/app-name on external registries).
-image: wallisson-tech/test_rails8
+image: wallisson-tech/test_rails_8
 
 # Deploy to these servers.
 servers:
