@@ -1,3 +1,5 @@
+<% require "dotenv"; Dotenv.load(".env") %>
+
 # Name of your application. Used to uniquely configure containers.
 service: test_rails8
 
@@ -7,7 +9,7 @@ image: wallissonlopes/test_rails8
 # Deploy to these servers.
 servers:
   web:
-    - 206.189.224.13
+    - <%= ENV["SERVER_IP"] %>
   # job:
   #   hosts:
   #     - 192.168.0.1
