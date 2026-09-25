@@ -29,7 +29,10 @@ proxy:
 # Where you keep your container images.
 registry:
   # Alternatives: hub.docker.com / registry.digitalocean.com / ghcr.io / ...
-  server: localhost:5555
+  server: ghcr.io
+  username: <%= ENV["GHCR_USERNAME"] %>
+  password: 
+      - GHCR_TOKEN
 
   # Needed for authenticated registries.
   # username: your-user
