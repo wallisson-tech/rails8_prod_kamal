@@ -4,7 +4,7 @@
 service: test_rails8
 
 # Name of the container image (use your-user/app-name on external registries).
-image: wallissonlopes/test_rails8
+image: wallisson-tech/test_rails8
 
 # Deploy to these servers.
 servers:
